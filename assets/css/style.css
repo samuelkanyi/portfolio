@@ -1158,14 +1158,6 @@ Choose Section style
 .choose_icon i {
   font-size: 1.5rem;
 }
-.list_item_text {
-  width: 60%;
-  display: inline-block;
-}
-.list_item_text h5 {
-}
-.list_item_text p {
-}
 
 /*
 Footer Section style
