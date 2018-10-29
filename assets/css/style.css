@@ -8,27 +8,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  font-family: "gotham_bookregular";
-}
-
-/*------------------------------------------------------------------*/
-/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
-/*-----------------------------------------------------------------*/
-
-@-webkit-viewport {
-  width: device-width;
-}
-@-moz-viewport {
-  width: device-width;
-}
-@-ms-viewport {
-  width: device-width;
-}
-@-o-viewport {
-  width: device-width;
-}
-@viewport {
-  width: device-width;
+  font-family: "Raleway", "gotham_bookregular" sans-serif;
 }
 
 /*
@@ -935,12 +915,12 @@ Home Section style
   top: 0px;
 }
 .home_text h1 {
-  font-family: "gothamregular";
+  font-family: "Raleway", "gothamregular" sans-serif;
   font-size: 100px;
   line-height: 5.5rem;
 }
 .home_text h4 {
-  font-family: "gotham_lightregular";
+  font-family: "Raleway", "gotham_lightregular" sans-serif;
   font-size: 24px;
 }
 .home_btns .btn-primary {
@@ -1020,7 +1000,8 @@ Home Section style
   font-weight: normal;
   color: #7f8c8d;
   color: #fff;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   letter-spacing: 2px;
   margin-top: 35%;
   text-decoration: none;
@@ -1199,13 +1180,13 @@ Footer Section style
 .contact_content_text .phone,
 .contact_content_text .info {
   font-size: 18px;
-  font-family: "gotham_boldregular";
+  font-family: "Raleway", "gotham_boldregular" sans-serif;
 }
 
 .author_text h5,
 .author_text h6 {
   font-size: 18px;
-  font-family: "gotham_bookregular";
+  font-family: "Raleway", "gotham_bookregular" sans-serif;
 }
 .author_text h6 {
   letter-spacing: 2px;
