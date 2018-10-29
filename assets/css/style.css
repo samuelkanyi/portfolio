@@ -8,7 +8,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  font-family: "Raleway", "gotham_bookregular" sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*
@@ -915,12 +915,10 @@ Home Section style
   top: 0px;
 }
 .home_text h1 {
-  font-family: "Raleway", "gothamregular" sans-serif;
   font-size: 100px;
   line-height: 5.5rem;
 }
 .home_text h4 {
-  font-family: "Raleway", "gotham_lightregular" sans-serif;
   font-size: 24px;
 }
 .home_btns .btn-primary {
@@ -1000,8 +998,6 @@ Home Section style
   font-weight: normal;
   color: #7f8c8d;
   color: #fff;
-  font-family: "Raleway", "proxima-nova", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
   letter-spacing: 2px;
   margin-top: 35%;
   text-decoration: none;
@@ -1067,10 +1063,10 @@ About us section style
 }
 .about_content p {
   font-size: 16px;
-  font-family: "gotham_bookregular";
+  font-family: "Raleway", sans-serif;
 }
 .about_content_item h6 {
-  font-family: "gotham_bookregular";
+  font-family: "Raleway" sans-serif;
 }
 .about_content_item h6 i {
   margin-right: 5px;
@@ -1081,7 +1077,7 @@ About us section style
 }
 .about_content_item ul li a {
   color: #404859;
-  font-family: "gotham_bookregular";
+  font-family: "Raleway", sans-serif;
 }
 .about_content_item ul li a i {
   font-size: 0.5rem;
@@ -1159,7 +1155,7 @@ Footer Section style
   transform: rotate(-90deg);
 }
 .head_right h2 {
-  color: #e0ecf0;
+  color: 0000ff;
 }
 .choose_item .head_right {
   top: -100px;
@@ -1180,13 +1176,11 @@ Footer Section style
 .contact_content_text .phone,
 .contact_content_text .info {
   font-size: 18px;
-  font-family: "Raleway", "gotham_boldregular" sans-serif;
 }
 
 .author_text h5,
 .author_text h6 {
   font-size: 18px;
-  font-family: "Raleway", "gotham_bookregular" sans-serif;
 }
 .author_text h6 {
   letter-spacing: 2px;
