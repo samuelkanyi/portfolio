@@ -898,7 +898,9 @@ Home Section style
   background: url(../images/Hero-image.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
-  height: 1000px;
+  /* height: 1000px; */
+  max-width: 100%;
+  max-height: 100%;
 }
 .main_home {
   overflow: hidden;
