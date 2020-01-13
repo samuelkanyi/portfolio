@@ -2,6 +2,9 @@
 const express = require('express')
 const hbs = require('express-handlebars');
 const path = require('path')
+const {PORT} = require('./config')
+require('./db')
+
 
 const app = express()
 
@@ -14,9 +17,9 @@ app.set('view engine', 'handlebars');
 app.use(express.static(path.join(__dirname, "assets")));
 
 
-const port = 3000
 
 //render the view on the home route
 app.get('/', (req, res) => res.render('home'))
+// console.log(config);
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`))
